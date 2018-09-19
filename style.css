@@ -96,5 +96,11 @@ input[type=submit] {
       font-size: 5vw;
       margin-top: 5%;
     }
+body {
 
+    background-image: url("space.jpg");
+    background-size: cover;
+
+
+}
 }
