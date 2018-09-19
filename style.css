@@ -99,3 +99,39 @@ input[type=submit] {
  body{
     background-image: url("space.jpg");
 }
+    
+    /* Large desktop */
+@media (min-width: 1200px){
+    body {
+        background: url("space.jpg");
+        background-size: cover;
+
+    }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+ background: url("space.jpg");
+        background-size: cover;
+    }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+    body {
+       
+        background: url("space.jpg");
+
+        background-size: cover;
+    } 
+}
+/* Landscape phones and down */
+@media (max-width: 480px){
+    body {
+        background: url("space.jpg");
+
+        background-size: cover;
+    }
+}
+    
+    
+    
