@@ -98,9 +98,6 @@ input[type=submit] {
     }
 body {
 
-    background-image: url("space.jpg");
-    background-size: cover;
-
-
+  background-color: #000000;
 }
 }
