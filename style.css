@@ -21,13 +21,11 @@ h1,
 h2,
 h3,
 p {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family:Arial;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
   text-align: center;
-  display: center;
-
 }
 
 h1 {
