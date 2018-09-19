@@ -1,0 +1,102 @@
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+body {
+
+    background-image: url("space.jpg");
+    background-size: cover;
+
+
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 10%;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+p {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  display: center;
+
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+}
+
+label { display:block;
+font-size: 25px;
+font-weight: bold;
+color:white; }
+
+.stack {
+
+    margin: 5% 25% 5% 25%;
+    display: inline-block;
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 5px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1048px) {
+    /* For mobile phones: */
+    .column{
+        padding: 5%;
+        margin: 2% 5% 2% 5%;
+    }
+    fieldset{
+      width: 100%;
+
+    }
+    input[type=text]{
+        width: 100;
+
+    }
+    h3{
+      font-size: 4vw;
+    }
+    h2{
+      font-size: 5vw;
+      margin-top: 5%;
+    }
+
+}
